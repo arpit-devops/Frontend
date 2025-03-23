@@ -1,0 +1,27 @@
+please got to html/html-part-1.txt before this one.
+
+css have ruleset as building block
+there might be multiple ruleset
+
+exmpale of one rule set
+
+.container {
+
+    background: red;
+    front-size: 1.3em;
+}
+
+selector-->
+    .container is one selector --> which means which htlml element or elements we need to style.
+        --> basically how to style one or more box created by html
+
+Properties-->
+    background
+    front-size 
+    ... many many more Properties are there
+
+units -->
+    some Properties's values have unit like em, px, bit etc
+
+now goto index.html
+

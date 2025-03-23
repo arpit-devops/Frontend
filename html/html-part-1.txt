@@ -40,9 +40,11 @@ there self closing tas as well like below
 <img src='hi.jpeg'>
     --> we dont need to close these tag
 
+so what html is doing ?
 
+    --> this provide sceleton for website, like its set of rectangular box in website.
 
-
+now got css/css-part-1.txt for basic structure of css.
 
 
 HTML is bunch of rectan
