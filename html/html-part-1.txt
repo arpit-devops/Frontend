@@ -1,0 +1,49 @@
+Basic structure of HTML 
+
+<div class="container">  </div> 
+
+<> --> opening tag 
+</> --> closing tag
+
+Elements  (sometime also called as tags)
+    div
+    head
+    body
+    section
+    strong 
+    h1
+    p
+    main
+    header
+    footer
+    .... and many more
+
+Attribute
+    class
+    id 
+    style
+    lang
+    href
+    rel
+    title
+    alt
+    scr
+    ... and manu more
+
+can can have nested element like 
+    
+    <div class="container">  
+        <div> </div>
+    </div> 
+
+there self closing tas as well like below
+<img src='hi.jpeg'>
+    --> we dont need to close these tag
+
+
+
+
+
+
+HTML is bunch of rectan
+
