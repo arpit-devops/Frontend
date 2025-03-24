@@ -1,0 +1,5 @@
+javascript is client side scripting, running on your browser.
+    like button to submit a form.  
+        --> sending data to server.
+        --> do some calculation on client side. 
+        --> use AJAX --> changing page context without reloading page
