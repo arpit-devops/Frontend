@@ -19,3 +19,4 @@ access via '.' like tree structure of all element of html and css. change in the
 
 <script>  tag is use to embedded js </script>
 
+console methods --> log, warn, error, clear
