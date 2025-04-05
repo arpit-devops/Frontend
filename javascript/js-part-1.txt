@@ -1,5 +1,21 @@
+source :- https://www.youtube.com/watch?v=_eHc5K0zAPw
+
 javascript is client side scripting, running on your browser.
     like button to submit a form.  
         --> sending data to server.
         --> do some calculation on client side. 
         --> use AJAX --> changing page context without reloading page
+
+
+javascript is interpretter lang execute line by line.
+update: Alters page without reloading.
+
+how to run javascript --> go to crome - inspect --> console tab --> give js code
+alert("hello")  --> got page alert with message
+console.log("LOG 1") --> final result like stdout like printf
+
+DOM --> document object modle --> seprate env as you will get access of all element in web page. use for dynamic styling, 
+access via '.' like tree structure of all element of html and css. change in these element reflect on actual web page.
+
+<script>  tag is use to embedded js </script>
+

@@ -30,6 +30,10 @@ Attribute
     scr
     ... and manu more
 
+example 'button is element' has attribue like 'onclick', define what will happen when button will hit.
+<button id="myButton" onclick="doClick()">hit me!</button> 
+
+
 can can have nested element like 
     
     <div class="container">  
