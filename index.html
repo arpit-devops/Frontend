@@ -2,7 +2,7 @@
     -
 This is comment block
 
-Emmet: these are use to create html tags in short form
+Emmet: these are use to create html tags/Elements in short form
     - ! + enter
     - div + enter
 ending of multiline commit --> 
@@ -20,7 +20,7 @@ ending of multiline commit -->
     <title>mywebsite</title> 
     
     <!--  this is example of internal/inline css, means css code is written here as well, 
-           but it make file large so we use external css file
+           but it make html file large so we should use external css file
     <style>
         /* css code */
     </style>
@@ -52,13 +52,23 @@ ending of multiline commit -->
             <a href="https://www.nissan.in/vehicles/new/nissan-magnite.html">  <!-- a is used to create anchor tag, it is used to create hyperlink -->
                 <h1>Nissan</h1> 
             </a> 
-            <a href="#"><img src="images/Nissan-Magnite-1.0NA-rear-static.jpg" alt="mypic"></a> <!-- img is used to insert image in webpage -->
+            <!-- <a href="#"><img src="images/Nissan-Magnite-1.0NA-rear-static.jpg" alt="mypic"></a> img is used to insert image in webpage -->
         </header>
     </div>
 
     <!-- Emmet - #container + enter  for ID attribute, mostly not use preffer class 
      <div id="wrapper"></div>
     -->
+
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br>  <!-- The <label> element is useful for screen-reader users -->
+        <!-- The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.-->
+        <input type="text" id="fname" name="fname"><br> <!-- It forces the text or content following it to start on a new line. -->
+        <input type="text" id="fname" name="fname" value="John"><br> 
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
 
 </body>
 </html>
