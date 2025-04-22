@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ Toggle Example</title>
+  <!-- DOM (Document Object Model) and jQuery do not always serve the same purpose, although they can often be used to achieve similar goals. -->
+  <!-- Simple styling to make it look nice -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .question {
+      cursor: pointer;
+      color: darkblue;
+    }
+
+    /* Applies to all tags with class "answer" */
+    .answer { 
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 3px solid #007BFF;
+      background-color: #f0f8ff;
+    }
+
+    /* applies to all <button> tags  regardless of class */
+    button {
+      margin-right: 10px;
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- FAQ question -->
+  <h3 class="question">What is jQuery?</h3>
+
+  <!-- FAQ answer -->
+  <p class="answer">jQuery is a JavaScript library that simplifies HTML DOM manipulation.</p>
+
+  <!-- Button that uses plain JavaScript (DOM) -->
+  <button id="toggleUsingDOM">Toggle Answer (DOM)</button>
+
+  <!-- Button that uses jQuery -->
+  <button id="toggleUsingjQuery">Toggle Answer (jQuery)</button>
+
+  <!-- jQuery library (CDN) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    // --------- DOM Method (Vanilla JavaScript) ---------
+    document.getElementById("toggleUsingDOM").addEventListener("click", function() {
+      // Select the answer paragraph using class
+      var answer = document.querySelector(".answer");
+
+      // Check if the answer is hidden, then show it, else hide it
+      if (answer.style.display === "none" || answer.style.display === "") {
+        answer.style.display = "block";  // Show the answer
+      } else {
+        answer.style.display = "none";   // Hide the answer
+      }
+    });
+
+    // --------- jQuery Method ---------
+    $("#toggleUsingjQuery").click(function() {
+      // Use jQuery's slideToggle for smooth animation
+      $(".answer").slideToggle();
+    });
+
+    // --------- Initial Setup ---------
+    // Hide the answer when the page loads
+    document.querySelector(".answer").style.display = "none";
+  </script>
+
+</body>
+</html>

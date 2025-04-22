@@ -54,10 +54,9 @@ $("#btn").click(function() {
 Ensures code runs after the page is fully loaded:
 ```javascript
 $(document).ready(function() {
-  // Your code here
+// Write your jQuery code here to ensure it runs after the entire document is fully loaded
+// Example:
+$("p").css("color", "blue");
+
 });
 ```
-
----
-
-Let me know if you want a visual cheat sheet or real-world examples!
