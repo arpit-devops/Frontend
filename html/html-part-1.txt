@@ -51,7 +51,7 @@ so what html is doing ?
 now got css/css-part-1.txt for basic structure of css.
 
 
-HTML is bunch of rectan
+HTML is bunch of rectangle
 
 The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
 
