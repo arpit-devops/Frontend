@@ -19,8 +19,8 @@ Elements  (sometime also called as tags)
     .... and many more
 
 Attribute
-    class
-    id 
+    class --> may be attached to multiple elements, denoted by '.' like .myclass
+    id   --> unique for element, demoted by '#' like #myid
     style
     lang
     href
